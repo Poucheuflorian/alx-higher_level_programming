@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-"""First definition of a class Rectangle"""
+"""First definition of a class Rectangle
+First definition of a class Rectangle
+"""
 
 class Rectangle():
     """ Real Class Resctangle """
