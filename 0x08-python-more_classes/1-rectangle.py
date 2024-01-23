@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+"""First definition of a class Rectangle"""
+
 class Rectangle():
     """ Real Class Resctangle """
     def __init__(self, width=0, height=0):
