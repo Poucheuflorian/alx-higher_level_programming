@@ -8,7 +8,7 @@ First definition of a class Rectangle
 class Rectangle():
     """ Real Class Resctangle """
     def __init__(self, width=0, height=0):
-        if(type(width) != int):
+        if (type(width) != int):
             raise TypeError("width must be an integer")
         if width < 0:
             raise ValueError("width must be >= 0")
@@ -29,7 +29,7 @@ class Rectangle():
 
     @width.setter
     def width(self, width):
-        if(type(width) != int):
+        if (type(width) != int):
             raise TypeError("width must be an integer")
         if width < 0:
             raise ValueError("width must be >= 0")
