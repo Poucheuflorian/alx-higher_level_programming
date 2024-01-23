@@ -17,7 +17,7 @@ class Rectangle():
             raise ValueError("height must be >= 0")
         self.__width = width
         self.__height = height
-        number_of_instances += 1
+        Rectangle.number_of_instances += 1
 
     def __str__(self):
         if (self.__width == 0 or self.height == 0):
@@ -37,7 +37,7 @@ class Rectangle():
 
     def __del__(self):
         print("Bye rectangle...")
-        number_of_instances -= 1
+        Rectangle.nummber_of_instances -= 1
 
     def area(self):
         return self.__width * self.__height
